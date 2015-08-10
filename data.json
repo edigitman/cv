@@ -1,0 +1,325 @@
+{
+  "personal" : {
+    "dob" : "28/04/1987",
+    "nationality" : "Romanian"
+  },
+
+  "general" : {
+    "availability" : "01-12-2015",
+    "title" : "Java EE Developer",
+    "location" : "Brussels",
+    "mainInterests" : [{"name":"Java EE"},{"name":"JSF"},{"name":"EJB"},{"name":"Spring"}],
+    "goodKnowledge" : [{"name":"JPA"},{"name":"Spring Security"},{"name":"Angular 1.x"},{"name":"Knockout"},{"name":"Shiro Security"}],
+    "miscellaneous" : [{"name":"AWS"},{"name":"Jenkins"},{"name":"Jira"}],
+    "ides" : [{"name":"Eclipse"},{"name":"Intellij"},{"name":"NetBeans"}],
+    "buildTools" : [{"name":"Maven"},{"name":"Ant"}],
+    "oss" : [{"name":"Windoes"},{"name":"CentOS"}],
+    "dbs" : [{"name":"Oracle"},{"name":"Mysql"},{"name":"Postgres"},{"name":"MongoDB"}]
+  },
+  "school" : [
+    {"name" : "Alexandru Ioan Cuza",
+     "location" : "Iasi, Romania",
+     "period" : {"start" : "01-09-2006", "end" : "30-06-2009"},
+     "title" : "Software developer"},
+    {"name" : "Gheorghe Asachi",
+      "location" : "Botosani, Romania",
+      "period" : {"start" : "01-09-2002", "end" : "30-06-2006"},
+      "title" : "Software developer assistent"}
+  ],
+
+  "job": [
+    {
+      "period": {
+        "start": "14-09-2009",
+        "end": "31-08-2010"
+      },
+      "company": {
+        "name": "MIND CTI",
+        "site": "http://www.mindcti.com",
+        "description": "MIND is a global provider of real-time, product mediation, call accounting software, billing and customer care solutions for voice, data and content services",
+        "employees": 300
+      },
+      "projects": [
+        {
+          "name": "",
+          "department": "R&D Customization",
+          "period": {
+            "start": "14-09-2009",
+            "end": "06-08-2010"
+          },
+          "technologies": {
+            "frameworks": [
+              { "name": "Java SE" },
+              { "name": "Custom UML" }
+            ],
+            "database": [
+              { "name": "Oracle" },
+              { "name": "PL/SQL" }
+            ]
+          },
+          "ide" : "Eclipse",
+          "scm" : "SVN",
+          "Issue Tracker" : "Custom SC",
+          "methodology" : "waterfall"
+        }
+      ]
+    },
+    {
+      "period": {
+        "start": "01-09-2010",
+        "end": "30-09-2011"
+      },
+      "company": {
+        "name": "Embarcadero Technologies",
+        "site": "http://www.embarcadero.com",
+        "description": "Embarcadero Technologies is an American computer software company that develops, manufactures, licenses, and supports products and services related to software through several product divisions.",
+        "employees": 100
+      },
+      "projects": [
+        {
+          "name": "All Access",
+          "department": "Automation Testing SDET",
+          "period": {
+            "start": "01-09-2010",
+            "end": "30-09-2011"
+          },
+          "technologies": {
+            "frameworks": [
+              { "name": "Java SE" },
+              { "name": "Java Web" },
+              { "name": "Soap Services" },
+              { "name": "JUnit", "purpose": "Executing integration tests. We had custom integration framework for Selenium" },
+              { "name": "Selenium", "purpose" : "Interaction with all browsers to execute integration tests" },
+              { "name": "Webdrive", "purpose" : "Reduce boilerplate from custom framework that was interactiong with Selenium" }
+            ],
+            "tools" : [
+              { "name": "Hudson/Jenkins", "purpose": "Schedule test executions on more that 8 machines, also used to automate restoring VMWare images or saving thread dumps in case of test failure"},
+              { "name": "VMWare Client", "purpose" : "Virtualising all existing Windows OS at that time, managing images and used with CLI to automate restoration and backups." },
+              { "name" : "SoapUI", "purpose" : "Executing performace tests"}
+            ],
+            "database": [
+              { "name": "Firebase" }
+            ]
+          },
+          "ide" : "Eclipse",
+          "scm" : "SVN",
+          "Issue Tracker" : "Jira",
+          "methodology" : "Agile"
+        }
+      ]
+    },
+    {
+      "period": {
+        "start": "01-10-2011",
+        "end": "30-11-2012"
+      },
+      "company": {
+        "name": "BeeNear",
+        "site": "http://www.beenear.com/",
+        "description": "The company is based in Iasi – Romania and was born from an Italian business initiative (involving private individuals and public institutions) aimed at creating a center of excellence in the design and development of software in the JAVA technology environments and Microsoft NET.",
+        "employees": 45
+      },
+      "projects": [
+        {
+          "name": "",
+          "department": "R&D",
+          "client" : "Cineca Italy",
+          "period": {
+            "start": "01-10-2011",
+            "end": "30-11-2012"
+          },
+          "technologies": {
+            "frameworks": [
+              { "name": "Java EE" },
+              { "name": "JSF 1.x" },
+              { "name": "REST Services" },
+              { "name": "Soap Services" },
+              { "name": "Activiti" },
+              { "name": "Hibernate" },
+              { "name": "JUnit", "purpose": "Unit testing" },
+              { "name": "Alfresco 3.x", "purpose" : "Document management system to be customized according to client needs" }
+            ],
+            "tools" : [
+              { "name": "ant"}
+            ],
+            "database": [
+              { "name": "Oracle" }
+            ],
+            "servers" : [
+              {"name" : "Tomcat 7.x"}
+            ]
+          },
+          "ide" : "Eclipse",
+          "scm" : "CVS",
+          "Issue Tracker" : "Bugzilla",
+          "methodology" : "Spiral"
+        }
+      ]
+    },
+    {
+      "period": {
+        "start": "01-12-2012",
+        "end": "30-09-2014"
+      },
+      "company": {
+        "name": "Pentalog",
+        "site": "http://www.pentalog.com",
+        "description" : "Pentalog is a computer and technology services company, focusing on low cost offshore/nearshore IT engineering and software development. Based in Orléans, France.",
+        "employees": 100
+      },
+      "projects": [
+        {
+          "name": "Sharalike",
+          "department": "R&D",
+          "client" : "Sharalike",
+          "period": {
+            "start": "01-12-2012",
+            "end": "15-04-2014"
+          },
+          "technologies": {
+            "frameworks": [
+              { "name": "Java EE" },
+              { "name": "Spring MVC" },
+              { "name": "Spring Security" },
+              { "name": "JUnit" },
+              { "name": "BackboneJS" },
+              { "name": "REST Services" },
+              { "name": "Rabbit MQ" },
+              { "name": "AWS (EC2, S3, RDBS, SNS and Trascoder)" }
+            ],
+            "tools" : [
+              { "name": "Maven"},
+              { "name": "Open CV"},
+              { "name": "AWS CLI"},
+              { "name": "OAuth (Facebook, Twitter, Google)"}
+            ],
+            "database": [
+              { "name": "MySql" },
+              { "name": "MongoDB" }
+            ],
+            "servers" : [
+              {"name" : "Tomcat 7.x"},
+              {"name" : "Jetty 8.x"},
+              {"name" : "Netty"}
+            ]
+          },
+          "ide" : [{"name":"Eclipse"}, {"name":"Intellij"}],
+          "scm" : [{"name" : "SVN"}, {"name" : "Git"}],
+          "Issue Tracker" : "Jira",
+          "methodology" : "Agile"
+        },
+        {
+          "name": "NTTDATA",
+          "department": "R&D",
+          "client" : "NTTDATA",
+          "period": {
+            "start": "16-04-2014",
+            "end": "20-09-2014"
+          },
+          "technologies": {
+            "frameworks": [
+              { "name": "Java EE" },
+              { "name": "EJB" },
+              { "name": "Soap Services" },
+              { "name": "JUnit" }
+            ],
+            "tools" : [
+              { "name": "Maven"},
+              { "name": "Jenkins"}
+            ],
+            "database": [
+              { "name": "Oracle" }
+            ],
+            "servers" : [
+              {"name" : "WebSphere"}
+            ]
+          },
+          "ide" : [{"name" : "Eclipse"}],
+          "scm" : [{"name" : "SVN"}],
+          "Issue Tracker" : "Jira",
+          "methodology" : "Waterfall"
+        }
+      ]
+    },
+    {
+      "period": {
+        "start": "27-09-2014",
+        "end": "Present"
+      },
+      "company": {
+        "name": "Gitman Alexandru eduard PFA",
+        "site": "",
+        "description": "Self employed freelancer",
+        "employees": 1
+      },
+      "projects": [
+        {
+          "consulatancy Company" : "TATA Consultancy Agency",
+          "name": "AGC Cost Estimation",
+          "department": "R&D",
+          "period": {
+            "start": "27-09-2014",
+            "end": "29-05-2015"
+          },
+          "client" : "AGC",
+          "technologies": {
+            "frameworks": [
+              { "name": "Java EE" },
+              { "name": "JSF" },
+              { "name": "EJB" },
+              { "name": "JPA" },
+              { "name": "EclipseLink" },
+              { "name": "JQuery" },
+              { "name": "FOP" }
+            ],
+            "tools" : [
+              { "name": "Maven"},
+              { "name": "Jenkins"}
+            ],
+            "database": [
+              { "name": "Oracle" }
+            ]
+          },
+          "ide" : "Intellij",
+          "scm" : "Git",
+          "Issue Tracker" : "Jira",
+          "methodology" : "Waterfall",
+          "servers" : [{"name" : "WebSphere"}]
+        },
+        {
+          "consulatancy Company" : "ARHS Consulting",
+          "name": "Sysper2",
+          "department": "R&D",
+          "period": {
+            "start": "01-06-2014",
+            "end": "Present"
+          },
+          "client" : "European Commission",
+          "technologies": {
+            "frameworks": [
+              { "name": "Java EE" },
+              { "name": "Struts 1.x" },
+              { "name": "EJB 2.x" },
+              { "name": "EJB 3.0" },
+              { "name": "Spring Security" },
+              { "name": "Spring AOP" },
+              { "name": "Spring Batch" },
+              { "name": "FOP" }
+            ],
+            "tools" : [
+              { "name": "Ant"}
+            ],
+            "database": [
+              { "name": "Oracle" }
+            ]
+          },
+          "ide" : "Eclipse",
+          "scm" : "RTC",
+          "Issue Tracker" : "RTC",
+          "methodology" : "Agile",
+          "servers" : [{"name" : "WebLogic 12.x"}]
+        }
+      ]
+    }
+  ]
+}
