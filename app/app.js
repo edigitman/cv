@@ -3,10 +3,7 @@ var CVModel = function() {
     var cv = null;
 
     var init = function(){
-        $.getJSON('data.json', function(newResult) {
-            cv = ko.mapping.fromJS(newResult.Data);
-
-        });
+        $.getJSON('data.json', function(data) { cv = ko.mapping.fromJS(data); });
     }
     init();
 
