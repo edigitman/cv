@@ -1,10 +1,14 @@
 var CVModel = function() {
     var self = this;
-    var cv = null;
+    var school = ko.observableArray();
 
     var init = function(){
-        $.getJSON('data.json', function(data) { cv = ko.mapping.fromJS(data); });
-    }
+        $.getJSON('data.json', function(data) {
+            //cv = ko.mapping.fromJS(data.school);
+
+
+        });
+    };
     init();
 
 };
